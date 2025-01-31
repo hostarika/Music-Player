@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="box">
+        <img src="./img/bahor.jpg" alt="" id="rasm">
+        <h2 id="nomi">Atirgullar ochdi Chiroy</h2>
+        <p id="singer">Jasur Jabborov</p>
+        <select name="music-select" id="select">
+            <option value="music1" id="option1">Music 1</option>
+            <option value="music2" id="option2">Music 2</option>
+            <option value="music3" id="option3">Music 3</option>
+            <option value="music4" id="option4">Music 4</option>
+            <option value="music5" id="option5">Music 5</option>
+            <option value="music6" id="option6">Music 6</option>
+            <option value="music7" id="option7">Music 7</option>
+        </select><br>
+        <progress max="100" value="70 " id="progress"></progress>
+
+        <audio id="audio" src=""></audio>
+        <div class="actions">
+            <button id="prev"><i class="fa-solid fa-backward-fast"></i></button>
+            <button id="play"><i id="playing" class="fa-solid fa-play"></i>              <i id="pause" class="fa-solid fa-pause"></i></button>
+            <button id="next"><i class="fa-solid fa-forward-fast"></i></button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
